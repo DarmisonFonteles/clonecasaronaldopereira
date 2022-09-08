@@ -428,9 +428,13 @@ body{
 .loc-senssao-beta{
     display: flex;
     justify-content: center;
-
-    padding: 15px;
     background-color: #134a99;
+}
+
+.loc-senha-auto{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .loc-senssao-beta-um{
@@ -643,5 +647,7 @@ body{
     }
     .loc-senha-auto{
         margin: 15px;
+        flex-direction: column;
+        width: 90%;
     }
 }
