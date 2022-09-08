@@ -17,7 +17,7 @@
         <div class="container">
             <div class="direcao-posicionamento-header">
                 <a href="./index.html" class="direcao-posicionamento-header">
-                    <h1 class="">
+                    <h1 class="direcao-posicionamento-header-img">
                         <img src="./assent/img/casa-ronaldo-pereira-header.jpg.opdownload" alt="Casa Ronaldo" title="Casa Ronaldo" class="">
                     </h1>
                 </a>
@@ -37,21 +37,22 @@
                 <a href="./index.html" class="direcao-posicionamento-header btn-doar" title="Como doar"> Saiba como doar </a>
 
                 <a href="./index.html" class="imagem-shalon">
-                    <h1 class="">
-                        <img src="./assent/img/shalom-headerr.jpg.opdownload"
-                            alt="Casa Ronaldo" title="Casa Ronaldo">
+                    <h1 class="direcao-posicionamento-header-img">
+                        <img src="./assent/img/shalom-headerr.jpg.opdownload" alt="Casa Ronaldo" title="Casa Ronaldo">
                     </h1>
                 </a>
             </div>
         </div>
     </header>
+
+
     <style>
         .position-corpo{
             display: flex;
             justify-content: center;
             justify-content: space-evenly;
             padding: 15px;
-
+            width: 100%;
         }
 
         .position-corpo img{
@@ -69,7 +70,9 @@
             font-size: 30px;
         }
     </style>
+    
     <main class="" role="main">
+        
         <section>
             <div>
                 <div class="owl-carousel owl-theme position-corpo-master" id="sobre">
@@ -149,33 +152,8 @@
                     </div>
                 </div>
             </div>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            </section>
 
-    <script>
-        $(document).ready(function(){
-            $(".owl-carousel").owlCarousel({
-                loop: true,
-                dots: false,
-                responsive:{
-                    0:{
-                        item:1
-                    },
-                    600:{
-                        item:2
-                    },
-                    1200:{
-                        item:3
-                    }
-                },
-                autoplay: true,
-                autoplayTimeout: 5000,
-            });
-        })
-    </script>
-        </section>
-
-        
 
         <section class="segunda-sessao-posicionamento">
             <div>
@@ -201,6 +179,7 @@
                 </div>
             </div>
         </section>
+        
         <section id="atividades">
             <div class="position-seletec-2">
                 <header class="posicionamento-texto-center">
@@ -269,13 +248,14 @@
                 </header>
                 <div class="img-video-edit">
                     <div class="img-video-edit">
-                        <img style="border-radius: 3% 3%;" src="./assent/img/img-video-2.png" class="img-vide-edi" alt="video-pop" title="video-pop"/> 
+                        <img style="border-radius: 3% 3%;" src="./assent/img/img-video-2.png" class="img-video-edit" alt="video-pop" title="video-pop"/> 
                             <a href="#video_popup" class="" id="video"></a>
                         <div id="video_popup"></div>
                     </div>
                 </div>
             </div>
         </section>
+        
         <section id="doacao">
             <div class="">
                 <header class="doar-aprenda">
@@ -289,7 +269,6 @@
                     </div>
                 </header>
             </div>
-
 
             <div class="doar-benfeitor-um">
                 <div class="doar-benfeitor-um-beta">
@@ -312,6 +291,7 @@
                     </div>
                 </div>
             </div>
+            
             <div class="class-doar-banco">
                 <div class="doar-benfeitor-um-beta">
                     <h3 class="doar-benfeitor-um-beta-um">Faça uma doação e ajude centenas de crianças</h3>
@@ -342,6 +322,7 @@
                     </div>   
                 </div>
             </div>
+            
             <div class="class-doar-banco">
                 <div class="doar-benfeitor-um-beta">
                     <h3 class="doar-benfeitor-um-beta-um">Seja um voluntário, entre em contato conosco</h3>
@@ -405,6 +386,8 @@
                 </div>
             </div>
         </section>
+
+        
         <section class="comunidade-shalon-beta">
             <div>
                 <header class="comunidade-shalon-img-centro">
@@ -457,6 +440,7 @@
                 </div>
             </div>
         </section>
+        
         <section class="nossos-projetos-beta">
             <div>
                 <header>
@@ -467,30 +451,30 @@
                 <div class="nossos-projetos-beta-corpo">
                     <div class="nossos-projetos-beta-area">
                         <a>
-                            <div>
+                            <div class="nossos-projetos-beta-sobreposto">
                                 <div class="nossos-projetos-beta-text1">Projeto José do Egito</div>
                             </div>
-                            <figure>
+                            <figure class="nossos-projetos-beta-hover">
                                 <img src="./assent/img/projeto-jose-do-egito.jpeg" class="nossos-projetos-beta-img" alt="projeto-jose-do-egito" title="projeto-jose-do-egito"/>
                             </figure>
                         </a>
                     </div>
                     <div class="nossos-projetos-beta-area">
                         <a>
-                            <div>
+                            <div class="nossos-projetos-beta-sobreposto">
                                 <div class="nossos-projetos-beta-text1">Projeto Jesus Meu Abrigo</div>
                             </div>
-                            <figure>
+                            <figure class="nossos-projetos-beta-hover">
                                 <img src="./assent/img/projeto-jesus-meu-abrigo.jpg" class="nossos-projetos-beta-img" alt="projeto-jesus-meu-abrigo" title="projeto-jesus-meu-abrigo"/>
                             </figure>
                         </a>
                     </div>
                     <div class="nossos-projetos-beta-area">
                         <a>
-                            <div>
+                            <div class="nossos-projetos-beta-sobreposto">
                                 <div class="nossos-projetos-beta-text1">Projeto Volta Israel</div>
                             </div>
-                            <figure>
+                            <figure class="nossos-projetos-beta-hover">
                                 <img src="./assent/img/projeto-volta-israel.jpg" class="nossos-projetos-beta-img" alt="projeto-volta-israel" title="projeto-volta-israel" />
                             </figure> 
                         </a>
@@ -501,8 +485,8 @@
 
 
         <section>
-            <div class="">
-                <div class="loc-senssao-beta">
+            <div class="loc-senssao-beta">
+                <div class="loc-senha-auto">
                     <div class="loc-senssao-beta-um">
                         <h4 class="loc-senssao-beta-titulo">Entre em contato</h4>
                         <div class="loc-senssao-beta-text1"> Rua Joaquim Lima 1415 Cep 60175-005 - Papicu - Fortaleza - Ceará<br /> casaronaldopereira@comshalom.org </div>
@@ -536,9 +520,10 @@
             </div>
         </section>
     </main>
+    
     <footer class="herder-position">
         <div class="">
-            <div class="direcao-posicionamento-header"">
+            <div class="direcao-posicionamento-header">
                 <a href="" title="Cartão" class="">
                     <h1 class="">
                         <img src="./assent/img/casa-ronaldo-pereira-header.jpg.opdownload" alt="casa-ronaldo-pereira" title="casa-ronaldo-pereira" class="">
@@ -565,6 +550,9 @@
     </footer>
     
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
 </body>
 
 </html>
