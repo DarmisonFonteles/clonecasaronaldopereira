@@ -11,9 +11,10 @@ $(document).ready(function(){
             },
             1200:{
                 item:1
-            }
+            },
+            
         },
         autoplay: true,
-        autoplayTimeout: 5000,
+        autoplayTimeout: 1000,
     });
 })
