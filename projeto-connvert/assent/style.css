@@ -84,7 +84,7 @@ body{
     justify-content: center;
     justify-content: space-evenly;
     padding: 15px;
-    
+    width: 100%;
 }
 
 .position-corpo img{
@@ -99,6 +99,7 @@ body{
     flex-direction: column;
     justify-content: space-around;
     margin: 20px;
+    width: 100%;
 }
 
 .title-texto-rotativo{
@@ -116,6 +117,8 @@ body{
     position: relative;
     height: 100%;
     width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .segunda-sessao-posicionamento-text{
